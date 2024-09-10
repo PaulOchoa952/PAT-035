@@ -46,12 +46,14 @@ router.get('/PAT-035/Soporte-IniciarSesion-Usuario', (req, res) => {
 router.post('/signin', (req, res, next) => {
     console.log(req.body);
     if (req.body.correo == 'adminPat@gmail.com') {
+        console.log('entro');
         pasport.authenticate('local.signin', {
             successRedirect: '/PAT-035/administrador',
             failureRedirect: '/signin',
             failureFlash: true
         })(req, res, next);
     }else{
+        console.log('no entro');
         pasport.authenticate('local.signin', {
             successRedirect: '/PAT-035/home',
             failureRedirect: '/signin',
