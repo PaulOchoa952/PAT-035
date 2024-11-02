@@ -28,6 +28,14 @@ This system allows hotel administrators to:
   - Node.js
   - Express.js
   - MySQL
+  - Morgan (HTTP request logger)
+  - Passport.js (Authentication)
+  - Express Session
+  - Express MySQL Session
+  - Express Handlebars
+  - Connect Flash (Flash messages)
+  - Bcryptjs (Password hashing)
+  - Timeago.js (Time formatting)
 
 - **Frontend** 
   - Handlebars
