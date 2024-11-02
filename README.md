@@ -1,14 +1,47 @@
-# Readme
-Web Application tailored for "Asocicacion de hoteles y Moteles de Tepic" special needs.
-This web allow the asociation's administrator evaluate 035 Mexican standard.
-Every administrator can give access to as much administrator as he wants in order 
-to manage employees and send surveys through SMS or directly copy the link to fill the questions.
+# Hotel Survey Management System
 
-## APP 
-The app files are stored in /src folder.
+A web application developed for "Asociación de Hoteles y Moteles de Tepic" to manage and evaluate compliance with Mexican Standard 035 (NOM-035-STPS-2018).
 
-## Additional references
+## Overview
+
+This system allows hotel administrators to:
+
+- Manage employee records
+- Send and track employee surveys via SMS or direct links 
+- Generate compliance reports and statistics
+- Add multiple administrator accounts
+- Monitor survey completion status
+- View detailed analytics and results
+
+## Features
+
+- **Employee Management**: Add, edit and remove employee records
+- **Survey Distribution**: Send surveys via SMS or shareable links
+- **Multi-Admin Support**: Create and manage multiple administrator accounts
+- **Real-time Analytics**: View survey completion rates and compliance metrics
+- **Reporting**: Generate detailed reports on NOM-035 compliance
+- **Access Control**: Role-based permissions system
+
+## Technology Stack
+
+- **Backend**
+  - Node.js
+  - Express.js
+  - MySQL
+
+- **Frontend** 
+  - Handlebars
+  - Bootstrap
+  - JavaScript
+  - CSS
+
+- **External Services**
+  - Twilio (SMS)
+  - Digital Ocean (Hosting)
+
+## Project Structure
+
+The application files are organized in the `/src` folder:
+
+## Mexican 035 oficial docs
 Mexican 035 standard oficial docs https://www.dof.gob.mx/nota_detalle.php?codigo=5541828&fecha=23/10/2018#gsc.tab=0
-
-## Web stack
-NodeJS,Javascript,Css,Handlebars,Boostrap,Mysql,Twilio,Digital Ocean
