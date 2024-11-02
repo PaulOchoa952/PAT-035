@@ -51,5 +51,27 @@ This system allows hotel administrators to:
 
 The application files are organized in the `/src` folder:
 
+## Installation and Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/hotel-survey-management-system.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd hotel-survey-management-system
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Set up environment variables:
+   - Create a `.env` file in the root directory
+   - Add the necessary environment variables (e.g., Twilio account SID, Auth Token, etc.)
+5. Start the application:
+   ```bash
+   npm start
+   ```
+
 ## Mexican 035 oficial docs
 Mexican 035 standard oficial docs https://www.dof.gob.mx/nota_detalle.php?codigo=5541828&fecha=23/10/2018#gsc.tab=0
